@@ -2,6 +2,14 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
+}
+
+:root {
+    --color: #60b4e8;
 }
 
 body {
@@ -13,8 +21,9 @@ body {
     align-items: center;
 }
 
+
 .main {
-    padding:5px;
+   
     display:flex;
     flex:1;
     max-width: 60vw;
@@ -31,7 +40,7 @@ body {
     
     position: relative;
     border: 3px solid pink;
-
+   
 }
 
 h4 {
@@ -43,14 +52,17 @@ h4 {
     display: flex;
     align-items: center; /* Centers text vertically */
     justify-content: center; /* Centers text horizontally */
-    font-size: 1.5em; /* Optional, adjust font size */
-    
+    font-size: 1.5em; 
+        font-family: "Slabo 27px", serif;
+        font-weight: 400;
+        font-style: normal;
 }
 
 .col img {
     width:100%;
     height:100%;
     object-fit: cover;
+
 }
 #img {
     flex:10;
@@ -58,4 +70,53 @@ h4 {
 
 #form {
     flex: 11;
+    
+    display: flex;
+    flex-direction:column ;
+gap: 20px;
+    justify-content:center;
+padding: 0 30px;
+   
 }
+
+
+form label {
+    display:block;
+}
+
+input:invalid {
+    border:1.5px solid red;
+}
+
+h2 {
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 300;
+    font-style: normal;
+    font-size: 40px;
+}
+
+.group {
+    display:flex;
+    flex-direction: column;
+    gap: 5px;
+    padding: 5px 0;
+}
+
+fieldset {
+    display: flex;
+    flex-direction: column;
+
+    border:none;
+}
+
+input {
+    height: 35px;
+    font-size: 16px;
+}
+
+label {
+    font-size: 18px;
+}
+
+
