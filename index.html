@@ -13,10 +13,11 @@
 </head>
 <body>
     <div class="main">
+        <!--
         <div class="col" id="img">
             <h4>Skyview Airways</h4>
             <img src="plane.jpg">
-        </div>
+        </div>-->
 
         <div class="col" id="form">
             <div class="">
@@ -26,27 +27,41 @@
 
             <form>
                 <fieldset>
+                <div class="nameGroup">
                     <div class="group">
-                    <label for="first_name">First Name</label>
-                    <input type="text" id="first_name" name="firstName">
+                        <label for="first_name">First Name</label>
+                        <input type="text" id="first_name" name="firstName">
+                    </div>
+                    <div class="group">
+                        <label for="last_name">Last Name</label>
+                        <input type="text" id="last_name" name="lastName">
+                    </div>
+
                 </div>
                 <div class="group">
                     <label for="email">Email</label>
                     <input type="email" id="email" name="email">
                 </div>
-                    <div class="group">
-                    <label for="last_name">Last Name</label>
-                    <input type="text" id="last_name" name="lastName">
+                <div class="group">
+                    <label for="password">Password</label>
+                    <input type="password" id="password" name="password">
                 </div>
                 <div class="group">
-                    <label for="last_name">Password</label>
-                    <input type="text" id="last_name" name="lastName">
+                    <label for="re-password">Confirm Password</label>
+                    <input type="password" id="re-password" name="re-password">
                 </div>
                 <div class="group">
-                    <label for="last_name">Password</label>
-                    <input type="text" id="last_name" name="lastName">
+                    <label for="dob">Date Of Birth</label>
+                    <input type="date" id="dob" name="dob">
                 </div>
-                <button type="submit">f</button>
+                <div class="group" id="check">
+                    <input type="checkbox" id="terms" name="terms">
+                    <label for="terms">I have read and accepted the terms and conditions</label>
+                    
+                </div>
+                    <div class="group" id="btn">
+                    <button type="submit">Sign Up</button>
+                </div>
                 </fieldset>
             </form>
         </div>
