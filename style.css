@@ -30,13 +30,11 @@ body {
     display:flex;
     flex:1;
     max-width: 32vw;
-    min-width: 20vw;
+    min-width: 480px;
 
-    max-height: 90vh;
-    min-height: 80vh;
-
+    max-height: 95vh;
+    min-height: 85vh;
     box-shadow:  2px 2px 7px 2px grey;
-    
 }
 
 .col {
@@ -49,7 +47,7 @@ body {
 h4 {
     position:absolute;
     top:40%;
-    background-color:rgba(0, 0, 0, 0.236);
+    background-color:rgba(210, 210, 210, 0.236);
     height: 5vh;
     width:100%;
     display: flex;
@@ -101,22 +99,28 @@ h2 {
 }
 
 .group {
-    display:flex;
+    display: flex;
     flex-direction: column;
     gap: 5px;
     padding: 5px 0;
+    
 }
+
+
 
 fieldset {
     display: flex;
     flex-direction: column;
     gap:5px;
     border:none;
+    
 }
+
 
 input {
     height: 30px;
     font-size: 16px;
+  
 }
 
 label {
@@ -126,8 +130,13 @@ label {
 
 .nameGroup {
     display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
+    
 }
+
+
 
 button {
     font-size: 18px;
